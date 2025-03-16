@@ -36,6 +36,9 @@ You can test the following modules using Redwin and gain experience in malware d
 Modules
 
 Reverse Shell Payloads: Payloads that can establish reverse connections.
+
 Persistence Payloads: Payloads that will run automatically when the system starts.
+
 Malware tool kit: Provides the ability to send pyload modules after establishing a connection with the system
-EDR Bypass: Endpoint Detection and Response (EDR) bypass techniques
+
+EDR Bypass: Endpoint Detection and Response (EDR) bypass techniquet
