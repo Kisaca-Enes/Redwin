@@ -11,9 +11,7 @@ Clone the Git repo:
 git clone https://github.com/Kisaca-Enes/Redwin.git
 cd Redwin
 
-Install dependencies:
 
-pip install -r requirements.txt
 
 Start the framework:
 
@@ -25,14 +23,12 @@ The Redwin framework requires the following dependencies:
 
 Python 3.6+ version.
 Required Python packages:
-requests
-psutil
-pycryptodome
-Other specified dependencies.
-
-To install dependencies:
-
-pip install -r requirements.txt
+request
+os
+base64 
+random
+sys
+string
 
 #User Guide
 
